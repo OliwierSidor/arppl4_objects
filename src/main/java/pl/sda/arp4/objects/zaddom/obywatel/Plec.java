@@ -1,4 +1,4 @@
-package pl.sda.arp4.objects.ZadDom.obywatel;
+package pl.sda.arp4.objects.zaddom.obywatel;
 
 public enum Plec {
     KOBIETA,
