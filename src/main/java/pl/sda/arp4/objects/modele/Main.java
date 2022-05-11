@@ -1,4 +1,4 @@
-package pl.sda.arp4.objects;
+package pl.sda.arp4.objects.modele;
 
 public class Main {
     public static void main(String[] args) {
@@ -18,5 +18,7 @@ public class Main {
 //        student1.nazwisko = "Sidor";
         System.out.println(student1);
         System.out.println("Ten student ma na imie: " + student1.getImie());
+
+        student1.przedstawSie();
     }
 }
