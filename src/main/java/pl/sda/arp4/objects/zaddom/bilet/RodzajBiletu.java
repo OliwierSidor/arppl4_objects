@@ -5,9 +5,13 @@ public enum RodzajBiletu {
     ULGOWY(0.90),
     EMERYT(0.30),
     CALODOBOWY(5.30);
-    double cena;
+    private final double cena;
 
     RodzajBiletu(double cena) {
         this.cena = cena;
+    }
+
+    public double getCena() {
+        return cena;
     }
 }

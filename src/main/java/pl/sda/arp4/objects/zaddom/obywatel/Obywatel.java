@@ -4,9 +4,9 @@ public class Obywatel {
     private Plec plec;
     private String imie;
     private String nazwisko;
-    private long pesel;
+    private String pesel;
 
-    public Obywatel(Plec plec, String imie, String nazwisko, long pesel) {
+    public Obywatel(Plec plec, String imie, String nazwisko, String pesel) {
         this.plec = plec;
         this.imie = imie;
         this.nazwisko = nazwisko;

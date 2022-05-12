@@ -24,7 +24,7 @@ public class MainObywatel {
         System.out.println("Podaj Nazwisko: ");
         String nazwisko = scanner.nextLine();
         System.out.println("Podaj PESEL: ");
-        long pesel = scanner.nextLong();
+        String pesel = scanner.nextLine();
 
         Obywatel obywatel = new Obywatel(plec, imie, nazwisko, pesel);
         obywatel.przedstawSie();

@@ -21,10 +21,10 @@ public class MainBilet {
             }
         } while (typ == null);
 
-        System.out.println("Wybrałeś bilet " + typ + " : " + typ.cena + " PLN");
+        System.out.println("Wybrałeś bilet " + typ + " : " + typ.getCena() + " PLN");
         System.out.println("Ile chciałbyś kupić biletów?");
         int liczbaBiletow = scanner.nextInt();
-        System.out.println("Do zapłaty: " + (liczbaBiletow * typ.cena) + " PLN");
+        System.out.println("Do zapłaty: " + (liczbaBiletow * typ.getCena()) + " PLN");
     }
 }
 
